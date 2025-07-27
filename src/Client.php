@@ -301,7 +301,7 @@ class Client
 
         switch (($this->brazil_region << 2) + ($this->china_region << 1) + $this->debug_mode) {
             case 1:
-                return 'https://partner.test-stable.shopeemobile.com/api/v2/';
+                return 'https://openplatform.sandbox.test-stable.shopee.sg/api/v2/';
             case 2:
                 return 'https://openplatform.shopee.cn/api/v2/';
             case 3:
